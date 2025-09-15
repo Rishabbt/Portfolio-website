@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
+import type { Swiper as SwiperType } from "swiper";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -66,10 +67,10 @@ const projects = [
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
 
-  const handleSlideChange = (swiper: any) => {
-    const currentIndex = swiper.activeIndex;
-    setProject(projects[currentIndex]);
-  };
+  const handleSlideChange = (swiper: SwiperType) => {
+  const currentIndex = swiper.activeIndex;
+  setProject(projects[currentIndex]);
+};
 
   return (
     <motion.section
