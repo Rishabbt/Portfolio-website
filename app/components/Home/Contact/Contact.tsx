@@ -16,7 +16,7 @@ const Contact = () => {
           <div className='mt-7'>
             <div className='flex items-center space-x-3 mb-4'>
               <BiEnvelope className='w-9 h-9 text-cyan-300' />
-              <p className='text-xl font-bold text-gray-400'>rishabhtripathi@gmail.com</p>
+              <p className='text-xl font-bold text-gray-400'>rishabhtripathi1956@gmail.com</p>
             </div>
 
             <div className='flex items-center space-x-3 mb-4'>
@@ -41,7 +41,7 @@ const Contact = () => {
 
           <input
             type='email'
-            placeholder='E-mail'
+            placeholder='e-mail'
             className='px-4 py-3.5 mt-6 bg-[#363659] text-white/outline-none rounded-md w-full placeholder:text-white/70'
           />
 
