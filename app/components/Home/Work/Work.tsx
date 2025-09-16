@@ -24,7 +24,7 @@ const projects = [
     title: "Ai-Resume-Analyzer",
     description:
       "The AI Resume Analyzer is a powerful, AI-driven tool built to help job seekers refine their resumes for maximum visibility and better job matches. Leveraging advanced ATS analysis, it provides instant resume evaluations, ATS scores, and personalized improvement suggestions to boost hiring potential. Users can seamlessly upload and store their resumes using Puter.js, ensuring smooth, serverless backend operations. Designed with React, Tailwind CSS, JavaScript, and HTML, the platform delivers a sleek, responsive, and user-friendly interface that works flawlessly across devices. Beyond scoring, the tool offers smart job matching by analyzing job descriptions and guiding users to optimize keywords and structure for better alignment. This project",
-    stack: [{ name: "React.js" }, { name: "JavaScript" }, { name: "TailwindCSS" }, {name:"Puter.js"}],
+    stack: [{ name: "React.js" }, { name: "JavaScript" }, { name: "TailwindCSS" }],
     image: "/images/p1.jpg",
     live: "https://ai-resumep-analyzer.vercel.app/",
     github: "https://github.com/Rishabbt/Ai-Resumep-Analyzer.git",
@@ -46,8 +46,7 @@ const projects = [
     title: "Portfolio-website",
     description:
       "I specialize in developing dynamic and responsive web applications utilizing a modern tech stack that includes React.js, Node.js, JavaScript, and Tailwind CSS. My expertise in React.js enables me to build modular and efficient user interfaces, while Node.js allows me to create scalable and high-performance backend services. Proficient in JavaScript, I implement clean, maintainable code following best practices. Additionally, I leverage Tailwind CSS to design visually appealing and fully responsive layouts. To enhance user engagement, I incorporate smooth and intuitive animations, ensuring an optimal and polished user experience across all devices. ",
-    stack: [{ name: "Node.js" }, { name: "React.js" }, { name: "TailwindCSS" },
-      { name: "JavaScript" },{ name: "TypeScript" }],
+    stack: [{ name: "Node.js" }, { name: "React.js" },{ name: "TypeScript" }],
     image: "/images/p3.jpg",
     live: "https://portfolio-website-ecru-three-44.vercel.app/",
     github: "https://github.com/Rishabbt/Portfolio-website.git",
