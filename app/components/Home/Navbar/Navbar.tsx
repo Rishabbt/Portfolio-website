@@ -58,7 +58,7 @@ const Nav = ({openNav}:Props) => {
             </div>
 
         </div>
-        Navbar</div>
+        </div>
   )
 }
 
