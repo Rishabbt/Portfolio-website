@@ -9,20 +9,20 @@ const Services = () => {
                 <br/>impactful results
         </h1>
         <div className='w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center'>
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard icon="/images/s1.png" name="UI and UX" description = "Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
             </div>
        
 
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aso="200">
                 <ServiceCard icon="/images/s2.png" name="Web and Mobile App" description = "Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
             </div>
 
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aso="200">
                 <ServiceCard icon="/images/s3.png" name="Design & Creative" description = "Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
             </div>
 
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aso="300">
                 <ServiceCard icon="/images/s4.png" name="Development" description = "Designing interfaces that are intuitive, efficient, and enjoyable to use."/>
             </div>
         </div>
