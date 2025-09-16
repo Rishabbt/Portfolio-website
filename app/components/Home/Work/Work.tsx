@@ -79,7 +79,7 @@ const Work = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="mx-5 min-h-[80vh] flex flex-col justify-center py-12 xl:px-0 " data-aos="zoom-out" data-aos-anchor-placement = "top-center" data-aos-delay ="100"
+      id="Project" className="mx-5 min-h-[80vh] flex flex-col justify-center py-12 xl:px-0 " data-aos="zoom-out" data-aos-anchor-placement = "top-center" data-aos-delay ="100"
     >
       <h1 className="mb-10 text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         A small selection of recent

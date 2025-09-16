@@ -3,7 +3,7 @@ import { BiEnvelope, BiMap, BiLogoLinkedin } from 'react-icons/bi'
 
 const Contact = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div className='pt-16 pb-16' id="Contact">
       <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-bold text-gray-200 flex justify-center mb-15'>
         Contact Info
       </h1>

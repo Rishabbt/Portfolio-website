@@ -2,14 +2,15 @@ export const NavLinks = [
 
     {
         id:1,
-        url:"#",
+        url:"#home",
         label:"Home",
     },
 
+    
     {
         id:2,
-        url:"#",
-        label:"Services",
+        url:"#Project",
+        label:"Project",
     },
 
     {
@@ -18,29 +19,18 @@ export const NavLinks = [
         label:"Resume",
     },
 
-    {
-        id:4,
-        url:"#",
-        label:"Works",
-    },
-
    
 
     {
-        id:5,
-        url:"#",
+        id:4,
+        url:"#Skill",
         label:"Skills",
     },
 
+    
     {
-        id:6,
-        url:"#",
-        label:"Testimonials",
-    },
-
-    {
-        id:7,
-        url:"#",
+        id:5,
+        url:"#Contact",
         label:"Contact",
     },
 ];
