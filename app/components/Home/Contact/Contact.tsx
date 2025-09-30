@@ -13,16 +13,23 @@ const Contact = () => {
           <p className='text-gray-400 mt-6 text-base sm:text-lg'>
             Let’s work together! Feel free to reach out for collaborations, opportunities, or just to say hello
           </p>
+          
           <div className='mt-7'>
+            <a href='mailto:rishabhtripathi1956@gmail.com'>
+             <div className='flex items-center space-x-3 mb-4'>
+               <BiEnvelope className='w-9 h-9 text-cyan-300' />
+               <p className='text-xl font-bold text-gray-400'>rishabhtripathi1956@gmail.com</p>
+             </div>
+           </a>
+            
+            <a href='https://www.linkedin.com/in/rishabh-tripathi-575252290/'>
             <div className='flex items-center space-x-3 mb-4'>
-              <BiEnvelope className='w-9 h-9 text-cyan-300' />
-              <p className='text-xl font-bold text-gray-400'>rishabhtripathi1956@gmail.com</p>
-            </div>
-
-            <div className='flex items-center space-x-3 mb-4'>
+              
               <BiLogoLinkedin className='w-9 h-9 text-cyan-300' />
               <p className='text-xl font-bold text-gray-400'>Rishabh Tripathi</p>
+              
             </div>
+            </a>
 
             <div className='flex items-center space-x-3 mb-4'>
               <BiMap className='w-9 h-9 text-cyan-300' />
@@ -32,6 +39,7 @@ const Contact = () => {
         </div>
 
         {/* form */}
+        
         <div 
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center" 
