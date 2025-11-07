@@ -37,8 +37,8 @@ const projects = [
       "FashTech is a modern e-commerce web application designed to provide a seamless and responsive shopping experience. Built using Next.js, React, and Redux Toolkit, it features dynamic product listings, an interactive cart, and a clean, intuitive interface. The platform ensures consistent performance across all devices through a fully responsive layout. Clerk authentication is integrated for secure user access. This project highlights my ability to design, develop, and manage scalable frontend architectures with a focus on usability and performance.",
     stack: [{ name: "Next.js" }, { name: "Redux" }, { name: "JavaScript" }],
     image: "/images/p5.png",
-    live: "https://mini-games-lyart.vercel.app/",
-    github: "https://github.com/Rishabbt/mini-games.git",
+    live: "https://e-commerce-fashtech.vercel.app/",
+    github: "https://github.com/Rishabbt/E-commerce-fashtech",
   },
   {
     num: "03",
