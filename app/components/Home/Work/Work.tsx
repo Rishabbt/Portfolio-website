@@ -32,21 +32,21 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-    title: "E-commerce webpage",
+    title: "E-Commerce(FashTch)",
     description:
-      "Built with semantic HTML5, modular CSS3 (mobile-first using Flexbox & CSS Grid and carefully scoped media queries) and fast, progressive JavaScript (deferred/async loading, code-splitting and event-delegation), this e-commerce front end delivers a polished shopping experience across all screen sizes. Images use srcset/picture with responsive sizing and lazy loading, critical CSS is inlined for instant above-the-fold render, and nonessential scripts load after interaction to preserve first contentful paint. Accessibility (ARIA roles, keyboard focus, meaningful landmarks), touch-friendly controls, and fluid layouts ensure usability on phones, tablets and desktops, while bundling, minification, HTTP caching and optional service-worker caching keep repeat loads snappy. The result: a performant, resilient, and scalable storefront that looks and feels native on every device.",
-    stack: [{ name: "JavaScript" }, { name: "HTML5" }, { name: "CSS3" }],
-    image: "/images/p2.jpg",
-    live: "https://e-commerce-sigma-coral.vercel.app/",
-    github: "https://github.com/Rishabbt/E-commerce.git",
+      "FashTech is a modern e-commerce web application designed to provide a seamless and responsive shopping experience. Built using Next.js, React, and Redux Toolkit, it features dynamic product listings, an interactive cart, and a clean, intuitive interface. The platform ensures consistent performance across all devices through a fully responsive layout. Clerk authentication is integrated for secure user access. This project highlights my ability to design, develop, and manage scalable frontend architectures with a focus on usability and performance.",
+    stack: [{ name: "Next.js" }, { name: "Redux" }, { name: "JavaScript" }],
+    image: "/images/p5.png",
+    live: "https://mini-games-lyart.vercel.app/",
+    github: "https://github.com/Rishabbt/mini-games.git",
   },
   {
     num: "03",
     category: "frontend",
     title: "Portfolio-website",
     description:
-      "I specialize in developing dynamic and responsive web applications utilizing a modern tech stack that includes React.js, Node.js, JavaScript, and Tailwind CSS. My expertise in React.js enables me to build modular and efficient user interfaces, while Node.js allows me to create scalable and high-performance backend services. Proficient in JavaScript, I implement clean, maintainable code following best practices. Additionally, I leverage Tailwind CSS to design visually appealing and fully responsive layouts. To enhance user engagement, I incorporate smooth and intuitive animations, ensuring an optimal and polished user experience across all devices. ",
-    stack: [{ name: "Node.js" }, { name: "React.js" },{ name: "TypeScript" }],
+    "I specialize in developing dynamic and responsive web applications utilizing a modern tech stack that includes React.js, Node.js, JavaScript, and Tailwind CSS. My expertise in React.js enables me to build modular and efficient user interfaces, while Node.js allows me to create scalable and high-performance backend services. Proficient in JavaScript, I implement clean, maintainable code following best practices. Additionally, I leverage Tailwind CSS to design visually appealing and fully responsive layouts. To enhance user engagement, I incorporate smooth and intuitive animations, ensuring an optimal and polished user experience across all devices. ",
+    stack: [{ name: "Next.js" }, { name: "React.js" },{ name: "TypeScript" }],
     image: "/images/p3.jpg",
     live: "https://portfolio-website-ecru-three-44.vercel.app/",
     github: "https://github.com/Rishabbt/Portfolio-website.git",
@@ -54,13 +54,13 @@ const projects = [
   {
     num: "04",
     category: "frontend",
-    title: "Memory-Game",
+    title: "E-commerce webpage",
     description:
-      "The memory card game is built using clean HTML5, responsive CSS3 (flexbox, grid, and media queries), and lightweight JavaScript for smooth interactivity and animations. The layout is fully optimized for different screen sizes, ensuring cards resize and realign seamlessly on mobile, tablet, and desktop. Touch-friendly controls and fluid scaling enhance the gaming experience across devices, while optimized asset loading and efficient DOM updates keep gameplay fast and responsive. Accessibility features and semantic markup make the game inclusive, and performance techniques like minified CSS/JS and lazy rendering ensure quick load times. This results in an engaging, mobile-friendly, and highly responsive web game experience.",
+      "Built with semantic HTML5, modular CSS3 (mobile-first using Flexbox & CSS Grid and carefully scoped media queries) and fast, progressive JavaScript (deferred/async loading, code-splitting and event-delegation), this e-commerce front end delivers a polished shopping experience across all screen sizes. Images use srcset/picture with responsive sizing and lazy loading, critical CSS is inlined for instant above-the-fold render, and nonessential scripts load after interaction to preserve first contentful paint. Accessibility (ARIA roles, keyboard focus, meaningful landmarks), touch-friendly controls, and fluid layouts ensure usability on phones, tablets and desktops, while bundling, minification, HTTP caching and optional service-worker caching keep repeat loads snappy. The result: a performant, resilient, and scalable storefront that looks and feels native on every device.",
     stack: [{ name: "JavaScript" }, { name: "HTML5" }, { name: "CSS3" }],
-    image: "/images/p4.jpg",
-    live: "https://mini-games-lyart.vercel.app/",
-    github: "https://github.com/Rishabbt/mini-games.git",
+    image: "/images/p2.jpg",
+    live: "https://e-commerce-sigma-coral.vercel.app/",
+    github: "https://github.com/Rishabbt/E-commerce.git",
   },
 ];
 
