@@ -9,7 +9,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   return (
     <footer className="relative bg-gradient-to-b from-gray-900 to-black text-gray-300">
       <div className="mx-auto max-w-7xl px-6 py-14">
