@@ -3,7 +3,7 @@
 import { NavLinks } from '@/constant/constant'
 import React from 'react'
 import {FaCode} from 'react-icons/fa'
-import { BiDownload } from 'react-icons/bi'
+// import { BiDownload } from 'react-icons/bi'
 
 import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
