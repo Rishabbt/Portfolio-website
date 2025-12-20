@@ -2,9 +2,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
-import { BsArrowRight } from 'react-icons/bs'
+// import { BsArrowRight } from 'react-icons/bs'
 import ParticlesHero from './ParticleBackground'
-import Link from "next/link";
+// import Link from "next/link";
 
 
 const Hero = () => {
