@@ -15,8 +15,9 @@ export const NavLinks = [
 
     {
         id:3,
-        url:"#",
+        url:"#Resume",
         label:"Resume",
+         type: "download",
     },
 
    
