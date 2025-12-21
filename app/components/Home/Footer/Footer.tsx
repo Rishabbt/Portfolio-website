@@ -4,6 +4,7 @@ import { NavLinks } from '@/constant/constant'
 import {
   Github,
   Linkedin,
+  Instagram,
   Mail,
   MapPin,
   ArrowUpRight,
@@ -86,6 +87,15 @@ export default function Footer() {
                 className="rounded-full border border-gray-700 p-2 transition hover:border-white hover:text-white"
               >
                 <Linkedin size={18} />
+              </a>
+              <a
+                href="https://www.instagram.com/rishabhtripathi101?igsh=MXcyb2JjOTlma3Rpdw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="rounded-full border border-gray-700 p-2 transition hover:border-white hover:text-white"
+              >
+                <Instagram size={18} />
               </a>
             </div>
           </div>
