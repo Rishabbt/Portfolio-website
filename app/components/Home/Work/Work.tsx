@@ -20,7 +20,18 @@ import WorkSliderBtns from "./WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "ResumeCraft pro",
+    title: "ResumeCraft pro",
+    description:
+    "I specialize in developing dynamic and responsive web applications utilizing a modern tech stack that includes React.js, Node.js, JavaScript, and Tailwind CSS. My expertise in React.js enables me to build modular and efficient user interfaces, while Node.js allows me to create scalable and high-performance backend services. Proficient in JavaScript, I implement clean, maintainable code following best practices. Additionally, I leverage Tailwind CSS to design visually appealing and fully responsive layouts. To enhance user engagement, I incorporate smooth and intuitive animations, ensuring an optimal and polished user experience across all devices. ",
+    stack: [{ name: "Next.js" }, { name: "React.js" },{ name: "TypeScript" }],
+    image: "/images/p6.png",
+    live: "https://resume-builder-two-bay.vercel.app/",
+    github: "https://github.com/Rishabbt/Resume---Builder",
+  },
+  {
+    num: "03",
+    category: "Ai-Resume-Analyzer",
     title: "Ai-Resume-Analyzer",
     description:
       "The AI Resume Analyzer is a powerful, AI-driven tool built to help job seekers refine their resumes for maximum visibility and better job matches. Leveraging advanced ATS analysis, it provides instant resume evaluations, ATS scores, and personalized improvement suggestions to boost hiring potential. Users can seamlessly upload and store their resumes using Puter.js, ensuring smooth, serverless backend operations. Designed with React, Tailwind CSS, JavaScript, and HTML, the platform delivers a sleek, responsive, and user-friendly interface that works flawlessly across devices. Beyond scoring, the tool offers smart job matching by analyzing job descriptions and guiding users to optimize keywords and structure for better alignment. This project",
@@ -31,7 +42,7 @@ const projects = [
   },
   {
     num: "02",
-    category: "frontend",
+    category: "FashTch",
     title: "E-Commerce(FashTch)",
     description:
       "FashTech is a modern e-commerce web application designed to provide a seamless and responsive shopping experience. Built using Next.js, React, and Redux Toolkit, it features dynamic product listings, an interactive cart, and a clean, intuitive interface. The platform ensures consistent performance across all devices through a fully responsive layout. Clerk authentication is integrated for secure user access. This project highlights my ability to design, develop, and manage scalable frontend architectures with a focus on usability and performance.",
@@ -41,8 +52,8 @@ const projects = [
     github: "https://github.com/Rishabbt/E-commerce-fashtech",
   },
   {
-    num: "03",
-    category: "frontend",
+    num: "04",
+    category: "Portfolio",
     title: "Portfolio-website",
     description:
     "I specialize in developing dynamic and responsive web applications utilizing a modern tech stack that includes React.js, Node.js, JavaScript, and Tailwind CSS. My expertise in React.js enables me to build modular and efficient user interfaces, while Node.js allows me to create scalable and high-performance backend services. Proficient in JavaScript, I implement clean, maintainable code following best practices. Additionally, I leverage Tailwind CSS to design visually appealing and fully responsive layouts. To enhance user engagement, I incorporate smooth and intuitive animations, ensuring an optimal and polished user experience across all devices. ",
@@ -52,8 +63,8 @@ const projects = [
     github: "https://github.com/Rishabbt/Portfolio-website.git",
   },
   {
-    num: "04",
-    category: "frontend",
+    num: "05",
+    category: "E-commerce",
     title: "E-commerce webpage",
     description:
       "Built with semantic HTML5, modular CSS3 (mobile-first using Flexbox & CSS Grid and carefully scoped media queries) and fast, progressive JavaScript (deferred/async loading, code-splitting and event-delegation), this e-commerce front end delivers a polished shopping experience across all screen sizes. Images use srcset/picture with responsive sizing and lazy loading, critical CSS is inlined for instant above-the-fold render, and nonessential scripts load after interaction to preserve first contentful paint. Accessibility (ARIA roles, keyboard focus, meaningful landmarks), touch-friendly controls, and fluid layouts ensure usability on phones, tablets and desktops, while bundling, minification, HTTP caching and optional service-worker caching keep repeat loads snappy. The result: a performant, resilient, and scalable storefront that looks and feels native on every device.",
@@ -96,7 +107,7 @@ const Work = () => {
               </div>
               {/* Category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category} 
               </h2>
               {/* Description */}
               <p className="text-white/60">{project.description}</p>
