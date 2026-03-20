@@ -3,7 +3,7 @@
 import { NavLinks } from '@/constant/constant'
 import React from 'react'
 import {FaCode} from 'react-icons/fa'
-// import { BiDownload } from 'react-icons/bi'
+import { BiDownload } from 'react-icons/bi'
 
 import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
@@ -41,11 +41,22 @@ const Nav = ({openNav}:Props) => {
                 <h1 className='text-xl sm:block md:text-2xl text-white font-bold'> RT</h1>
             </div>
             <div className='hidden lg:flex item-center space-x-10'>
-                {NavLinks.map((link)=>{
-                    return <Link key={link.id} href={link.url} className="text-base hover:text-cyan-300 text-white font-medium transition-all durtion-200">
-                        <p>{link.label}</p>
-                    </Link>
-                })}
+                {NavLinks.map((link) => {
+    if (link.isExternal) {
+        return (
+            <a key={link.id} href={link.url} target="_blank" rel="noopener noreferrer"
+                className="text-base hover:text-cyan-300 text-white font-medium transition-all duration-200">
+                {link.label}
+            </a>
+        );
+    }
+    return (
+        <Link key={link.id} href={link.url}
+            className="text-base hover:text-cyan-300 text-white font-medium transition-all duration-200">
+            <p>{link.label}</p>
+        </Link>
+    );
+})}
             </div>
 
             <div className='flex items-centre space-x-4'>

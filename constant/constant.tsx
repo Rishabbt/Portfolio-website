@@ -1,4 +1,11 @@
-export const NavLinks = [
+export type NavLink = {
+  id: number;
+  url: string;
+  label: string;
+  isExternal?: boolean;  // ← this must be here
+};
+
+export const NavLinks: NavLink[] = [
 
     {
         id:1,
@@ -15,7 +22,7 @@ export const NavLinks = [
 
     {
         id:3,
-        url:"",
+        url:"Resume_RT.pdf",
         label:"Resume",
          
     },
